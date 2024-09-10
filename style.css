@@ -1,35 +1,38 @@
+
+
 body {
     background-color: rgb(244, 208, 78);
     font-family: figtree;
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h1 {
     color: rgb(18, 18, 18);
     font-weight: 800;
-    font-size:1.5em;
+    font-size:1.5rem;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     color: rgb(107, 107, 107);
 }
 
 .card-box {
     background-color: white;
-    border:solid hsl(0, 0%, 7%) 2px;
+    border:solid hsl(0, 0%, 7%) 1px;
     border-radius: 20px;
     padding:22px;
     max-width:336px;
     height:475px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 8px 8px 0 0px black
+    box-shadow: 8px 8px 0 0px hsl(0, 0%, 7%);
+    margin: auto;
 }
 
 .logo-picture {
-    width:100%;
+    max-width:100%;
     border-radius:10px;
 }
 
@@ -44,7 +47,7 @@ p {
 }
 
 .info-text {
-    line-height: 24px;
+    line-height: 1.5;
     margin-bottom:0;
 }
 
@@ -61,7 +64,7 @@ p {
 }
 .author-name {
     vertical-align: middle;
-    margin-left:15px;
+    margin-left:1rem;
     color: rgb(18, 18, 18);
     font-weight: 800;
 }
