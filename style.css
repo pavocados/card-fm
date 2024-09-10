@@ -28,7 +28,8 @@ p {
     max-width:336px;
     height:475px;
     box-shadow: 8px 8px 0 0px hsl(0, 0%, 7%);
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-picture {
